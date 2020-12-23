@@ -13,7 +13,11 @@ const useStyles = makeStyles({
     textAlign: 'center',
   },
   footer: {
+    position: 'fixed',
+    bottom: '0px',
     paddingTop: '20px',
+    width: '100%',
+    textAlign: 'center',
   },
 });
 
@@ -59,7 +63,7 @@ export default function Index() {
           </Typography>
         </div>
         <div className={classes.footer}>
-          <Typography variant='caption' align='center'>
+          <Typography variant='subtitle2' align='center'>
             *Please Drink Responsibly*
           </Typography>
         </div>
