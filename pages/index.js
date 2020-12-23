@@ -12,6 +12,9 @@ const useStyles = makeStyles({
   rules: {
     textAlign: 'center',
   },
+  footer: {
+    paddingTop: '20px',
+  },
 });
 
 export default function Index() {
@@ -46,7 +49,18 @@ export default function Index() {
             Get Ran Over by a Vehicle - Take 2 Drinks
           </Typography>
           <Typography variant='h6' align='center'>
+            Win Gulag - Give Out 2 Drinks
+          </Typography>
+          <Typography variant='h6' align='center'>
+            Lose Gulag - Finish Drink Before End of Game or Bought Back
+          </Typography>
+          <Typography variant='h6' align='center'>
             Fall to Your Death - Finish Your Drink
+          </Typography>
+        </div>
+        <div className={classes.footer}>
+          <Typography variant='caption' align='center'>
+            *Please Drink Responsibly*
           </Typography>
         </div>
       </div>
