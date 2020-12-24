@@ -38,10 +38,13 @@ export default function Index() {
               Down Someone - Give Out 1 Drink
             </Typography>
             <Typography variant='h6' align='center'>
+              Kill Them - Give Out 1 More Drink (2 total)
+            </Typography>
+            <Typography variant='h6' align='center'>
               Get Downed - Take a drink
             </Typography>
             <Typography variant='h6' align='center'>
-              Die - Take 2 Drinks
+              Die - Take 1 More Drink (2 total)
             </Typography>
             <Typography variant='h6' align='center'>
               Bad Call Out - Take 1 Drink
@@ -59,7 +62,7 @@ export default function Index() {
               Win Gulag - Give Out 2 Drinks
             </Typography>
             <Typography variant='h6' align='center'>
-              Lose Gulag - Finish Drink Before End of Game or Bought Back
+              Lose Gulag - Take 2 Drinks
             </Typography>
             <Typography variant='h6' align='center'>
               Fall to Your Death - Finish Your Drink
