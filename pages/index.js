@@ -38,6 +38,12 @@ export default function Index() {
               Down Someone - Give Out 1 Drink
             </Typography>
             <Typography variant='h6' align='center'>
+              Get Downed - Take a drink
+            </Typography>
+            <Typography variant='h6' align='center'>
+              Die - Take 2 Drinks
+            </Typography>
+            <Typography variant='h6' align='center'>
               Bad Call Out - Take 1 Drink
             </Typography>
             <Typography variant='h6' align='center'>
@@ -57,6 +63,18 @@ export default function Index() {
             </Typography>
             <Typography variant='h6' align='center'>
               Fall to Your Death - Finish Your Drink
+            </Typography>
+            <Typography variant='h6' align='center'>
+              Revive a teammate - Give out a Drink
+            </Typography>
+            <Typography variant='h6' align='center'>
+              Lose Connection - Take 1 Drink
+            </Typography>
+            <Typography variant='h6' align='center'>
+              Finish Contract - Social
+            </Typography>
+            <Typography variant='h6' align='center'>
+              Team Loss - Social
             </Typography>
           </div>
         </div>
